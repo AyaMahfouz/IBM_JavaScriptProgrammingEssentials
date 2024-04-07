@@ -14,6 +14,16 @@ function checkCountValue() {
     }
 }
 
+function resetCount(){
+    count = 0;
+    displayCount();
+    alertReset();
+}
+
+function alertReset(){
+    alert("Followers Count Reset!");
+}
+
 function displayCount(){
     document.getElementById('countDisplay').innerHTML = count;
 }
